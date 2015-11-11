@@ -7,7 +7,15 @@ angular.module('directivePractice').controller('lessonCtrl', function($scope){
         alert(lesson + ' is active on ' + day + '.');
       }
     }
-    $scope.logChange = function(){
-      console.log('Changed!');
+    $scope.removeLesson = function(lesson){
+      for(var i = 0; i < $scope.lessons.length; i++){
+        if(lesson === $scope.lessons[i]){
+          $scope.lessons.splice(i, 1);
+          break;
+        }
+      }
     }
+    // $scope.logChange = function(){
+    //   console.log('Changed!');
+    // }
 })

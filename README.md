@@ -233,8 +233,8 @@ Your directive should now look something like this:
 // ## Step 8: Next steps.
 // Congratulations! You have written a new custom directive that utilizes the restrictions, a templateUrl, isolate scope, a controller, and a link function! Directives can be a lot to wrap your head around, so here are a few options to familiarize yourself further:
 ​
-	1. Right now our dayAlert function will alert that 'Lesson is active on undefined' if we select a lesson that is not in the schedule. Try to fix that.
-	2. Add a checkbox that toggles whether or not lessons in the schedule are crossed out or not.
+	// 1. Right now our dayAlert function will alert that 'Lesson is active on undefined' if we select a lesson that is not in the schedule. Try to fix that.
+	// 2. Add a checkbox that toggles whether or not lessons in the schedule are crossed out or not.
 	3. Allow users to remove a lesson from the schedule and have your directive update when a lesson is removed from the schedule.
 ​
 Directives are an incredibly intricate and powerful piece of AngularJS, so keep practicing and searching out new use-cases for them. Once again, congratulations on your first fully fledged custom directive!
